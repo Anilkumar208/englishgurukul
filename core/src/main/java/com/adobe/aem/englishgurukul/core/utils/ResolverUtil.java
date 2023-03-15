@@ -11,7 +11,7 @@ public class ResolverUtil {
 	private ResolverUtil() {
 		
 }
-	public static final String ENGLISH_GURUKUL ="englishgurukul";
+	public static final String ENGLISH_GURUKUL ="englishgurukuluser";
 	
 	  public static ResourceResolver newResolver( ResourceResolverFactory resourceResolverFactory ) throws LoginException, Throwable {
 	        final Map<String, Object> paramMap = new HashMap<String, Object>();
