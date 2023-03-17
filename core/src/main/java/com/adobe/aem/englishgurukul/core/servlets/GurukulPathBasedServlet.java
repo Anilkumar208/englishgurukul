@@ -24,7 +24,7 @@ import com.day.cq.wcm.api.PageManager;
 
 @Component(service = Servlet.class)
 @SlingServletPaths(
-        value = {"/bin/pages","/geeks/pages"}
+        value = {"/bin/pages","/gurukul/pages"}
 )
 public class GurukulPathBasedServlet extends SlingAllMethodsServlet {
     /**
